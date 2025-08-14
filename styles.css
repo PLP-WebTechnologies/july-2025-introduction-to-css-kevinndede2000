@@ -1,0 +1,115 @@
+/* Reset and Box Sizing */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #222;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+nav button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    background-color: #555;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #777;
+}
+
+/* Content Box Styling */
+.content-box {
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.content-box h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.content-box p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Profile Picture Styling */
+.profile-picture {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.profile-picture img {
+    border: 3px solid #555;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: #eee;
+}
+
+/* Unordered List Styling */
+ul {
+    background-color: #e0f7fa;
+    border: 2px solid #00acc1;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 6px;
+    list-style-type: disc;
+}
+
+ul li {
+    margin-bottom: 8px;
+    color: #006064;
+    font-size: 1em;
+}
+
+/* Ordered List Styling */
+ol {
+    background-color: #fff3e0;
+    border: 2px solid #fb8c00;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 6px;
+    list-style-type: decimal;
+}
+
+ol li {
+    margin-bottom: 8px;
+    color: #e65100;
+    font-size: 1em;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+    border-top: 1px solid #bbb;
+    margin-top: 40px;
+}
